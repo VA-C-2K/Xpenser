@@ -30,12 +30,13 @@ font-weight:500;
     border-radius: 4px;
     padding: 0px 5px;
     background-color:white;
-    border-right:5px solid rgba(252, 28, 28, 0.849);
+    border-right:5px solid rgba(48, 192, 4, 0.589);
+    border-left:5px solid  rgba(252, 28, 28, 0.849);
   }
 .header-button span{
     font-weight: 600;
-    margin-left:6px;
-    margin-right:-4px;
+    margin-left:4px;
+    margin-right:-2px;
 }
 
 @media only screen and (max-width:1024px){

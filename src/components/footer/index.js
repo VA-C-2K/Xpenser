@@ -30,7 +30,7 @@ const Footer = () => {
       >
         <i className='fab fa-discord' id="discord" />
       </a>
-      VA_Creations© 2022
+      <span>VA_Creations© 2022</span>
       <a
         className='social-icon-link instagram'
         href='https://www.instagram.com/vi_king_creations'

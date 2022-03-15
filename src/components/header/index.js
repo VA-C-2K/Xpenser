@@ -15,7 +15,7 @@ const Header = () => {
             Xpensr <i className="fi-rr-credit-card"></i>
             </div>
         <div className="header-button">
-         Total:<span>₹{totalAmount}</span>
+        Total:<span>₹{totalAmount}</span>
         </div>
         </div>
     </div>

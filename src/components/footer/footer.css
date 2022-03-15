@@ -8,6 +8,37 @@ footer {
     align-items: center;
     padding-bottom: 6px;
     color:black;
-    font-weight: 700;
-    background-color: rgb(204, 204, 204);
   }
+  footer a i{
+    font-size: 18px;
+  }
+  .social-icon-link{
+    color:black;
+  }
+
+  footer span{
+    font-size:17px; 
+    font-weight: bold; 
+  }
+  @media only screen and (max-width:1024px){
+    footer a i{
+      font-size: 16px;
+    }
+    footer span{
+      font-size:16px;  
+    }
+    footer span{
+      font-size:15px; 
+      font-weight: bold; 
+    }
+
+}
+@media only screen and (max-width:512px){
+  footer a i{
+    font-size: 15px;
+  }
+  footer span{
+    font-size:12px; 
+    font-weight: bold; 
+  }
+}
