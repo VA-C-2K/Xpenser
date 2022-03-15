@@ -32,7 +32,6 @@ export const expenseReducer=(state=initialState,action)=>{
             }
         case SEARCH_EXPENSE:{
             const {query}=action;
-            console.log("reducer"+query)
             return {
                 ...state,
                 query,

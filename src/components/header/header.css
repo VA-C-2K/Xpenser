@@ -21,6 +21,21 @@ font-weight:500;
     align-items:center;
     margin-left:6px;
 }
+.header-button {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 8px;
+    background-color:lightgrey;
+  }
+.header-button span{
+    font-weight: 600;
+    margin-left:8px;
+    margin-right:3px;
+}
 
 @media only screen and (max-width:1024px){
     .header-container{
@@ -29,6 +44,9 @@ font-weight:500;
     .header-logo{
         font-size:28px;
     }
+    .header-button {
+        font-size: 18px;
+      }
 
 }
 @media only screen and (max-width:512px){
@@ -38,5 +56,7 @@ font-weight:500;
     .header-logo{
         font-size:24px;
     }
-
+    .header-button {
+        font-size: 16px;
+      }
 }
