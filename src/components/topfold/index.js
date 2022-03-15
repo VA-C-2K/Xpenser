@@ -22,7 +22,7 @@ const TopFold = () => {
                         <i className="fi-rr-search"></i>
                         <input
                             autoFocus 
-                            placeholder="Search for expenses"
+                            placeholder="🔎 Search for expenses"
                             value={query}
                             onFocus={(e) => handleQuery(e)}
                             onChange={(e) =>handleQuery(e)}
