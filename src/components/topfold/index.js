@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { searchExpense } from '../../redux/actions/expenses';
-import './topfold.css'
+import './topfold.css';
+import {FaSearch} from 'react-icons/fa';
+
 const TopFold = () => {
     const [query, setQuery] = useState("");
     const dispatch = useDispatch()
@@ -19,10 +21,10 @@ const TopFold = () => {
 
                 <div className="home-topfold">
                     <div className="searchbar">
-                        <i className="fi-rr-search"></i>
+                        <FaSearch/>
                         <input
                             autoFocus 
-                            placeholder="🔎 Search for expenses"
+                            placeholder="Search for expenses"
                             value={query}
                             onFocus={(e) => handleQuery(e)}
                             onChange={(e) =>handleQuery(e)}

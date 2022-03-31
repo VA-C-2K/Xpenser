@@ -25,10 +25,10 @@
     margin-left: 6px;
     background-color: white;
 }
-.searchbar i{
+.searchbar svg{
     display: flex;
     align-items: center;
-    margin-left:8px;
+    margin-left:10px;
   }
   
   .add-button {

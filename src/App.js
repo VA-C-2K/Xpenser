@@ -3,7 +3,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import AddExpense from "./pages/add-expense";
 import Home from "./pages/home";
-
+import React from "react";
 function App() {
   return (
     <Router>
